@@ -114,7 +114,7 @@
   
   async function pertanyaan(){var { isConfirmed: prtanya } = await swals.fire({title: nama + ' ' + tanya, text: '' + opstanya, imageUrl: '' + fotostiker5.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
     if(prtanya){
-	pesanwhatsapp = "isi sendiri";
+	pesanwhatsapp = "_isi sendiri_";
 	menuju();
     } else {
 	pesanwhatsapp = Enggak;
